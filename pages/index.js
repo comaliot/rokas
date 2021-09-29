@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -14,13 +13,23 @@ export default function Home() {
       <main className={styles.wrapper}>
         <p className={styles.text}>
           <strong>I’m</strong> Rokas, <strong>a front-end developer </strong>
-          based in Oslo, Norway. <strong>My passion is </strong>
+          based in Oslo, Norway.
+        </p>
+        <p className={styles.text}>
+          <strong>My passion is </strong>
           <span className={styles.graphic}>graphic design</span>,{' '}
           <span className={styles.code}>web development</span>, interneting and
-          technologies. Besides that, <strong>I like</strong> reading books,
-          hiking, travelling, movies, cooking, photography.{' '}
+          technologies.
+        </p>
+        <p className={styles.text}>
+          Besides that, <strong>I like</strong> reading books, hiking,
+          travelling, movies, cooking, photography.{' '}
+        </p>
+        <p className={styles.text}>
           <strong>I have knowledge of</strong> HTML, CSS, JavaScript, JS
           libraries such as React, React frameworks like Next.js.{' '}
+        </p>
+        <p className={styles.text}>
           <strong>I also know how to</strong> beautify websites using
           TailwindCSS, styled-components, SASS, Chakra UI and make the most
           delicious sandwiches.
