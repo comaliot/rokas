@@ -8,6 +8,15 @@
   height: 100vh;
   background-color: #fff;
   color: #2b3044;
+  background: radial-gradient(
+    circle,
+    rgba(236, 255, 234, 1) 0%,
+    rgba(255, 255, 255, 1) 57%,
+    rgba(255, 233, 246, 1) 91%
+  );
+  animation: change 10s ease-in-out infinite;
+  background-size: 400% 400%;
+  position: relative;
 }
 
 .wrapper {
@@ -15,23 +24,41 @@
 }
 
 .code {
-  font-size: 20px;
-}
-
-.code {
+  font-size: 1.2rem;
   font-family: 'Fira Code', monospace;
   padding: 2px;
-  background-color: #1d202e;
+  background-color: #2b3044;
   color: #fff;
 }
 
 .text {
-  font-size: 20px;
+  font-size: 1.3rem;
   line-height: 1.6;
   font-family: 'Open Sans', sans-serif;
 }
 
 .graphic {
-  font-size: 20px;
+  font-size: 1.4rem;
   font-family: 'Schoolbell', cursive;
+}
+
+.internet {
+  cursor: progress;
+}
+
+.technologies {
+  font-size: 0.9rem;
+  font-family: 'Press Start 2P', cursive;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
