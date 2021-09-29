@@ -23,7 +23,7 @@ export default function Home() {
           libraries such as React, React frameworks like Next.js.{' '}
           <strong>I also know how to</strong> beautify websites using
           TailwindCSS, styled-components, SASS, Chakra UI and make the most
-          delicious sandwhiches.
+          delicious sandwiches.
         </p>
       </main>
     </div>
