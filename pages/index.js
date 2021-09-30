@@ -31,7 +31,7 @@ export default function Home() {
             .
           </p>
           <p className={styles.text}>
-            Besides that, <strong>I like</strong> reading books, hiking,
+            Besides that, <strong>I enjoy</strong> reading books, hiking,
             travelling, movies, cooking, photography.{' '}
           </p>
           <p className={styles.text}>
