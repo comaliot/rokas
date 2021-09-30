@@ -10,13 +10,25 @@
   color: #2b3044;
   font-size: 1.2rem;
   font-family: 'Open Sans', sans-serif;
-  background: rgb(237, 255, 235);
+  /* background: rgb(237, 255, 235);
   background: radial-gradient(
     circle,
     rgba(237, 255, 235, 1) 0%,
     rgba(255, 255, 255, 1) 57%,
     rgba(255, 236, 247, 1) 91%
-  );
+  ); */
+  background-image: #bbff99;
+  background-image: radial-gradient(
+      at 91% 58%,
+      hsla(245, 61%, 66%, 0.3) 0,
+      transparent 48%
+    ),
+    radial-gradient(at 73% 12%, hsla(288, 61%, 79%, 0.3) 0, transparent 49%),
+    radial-gradient(at 56% 73%, hsla(35, 60%, 65%, 0.3) 0, transparent 50%),
+    radial-gradient(at 8% 8%, hsla(198, 81%, 79%, 0.3) 0, transparent 43%),
+    radial-gradient(at 68% 31%, hsla(37, 85%, 75%, 0.3) 0, transparent 53%),
+    radial-gradient(at 77% 12%, hsla(44, 97%, 62%, 0.3) 0, transparent 58%),
+    radial-gradient(at 28% 84%, hsla(250, 94%, 67%, 0.3) 0, transparent 52%);
   animation: change 10s ease-in-out infinite;
   background-size: 400% 400%;
 }
